@@ -47,7 +47,6 @@ void selectionSort(int arr[], int n) {
     }
 }
 
-// Merge Sort
 void merge(int arr[], int l, int m, int r) {
     int n1 = m - l + 1;
     int n2 = r - m;
@@ -87,7 +86,6 @@ void mergeSort(int arr[], int l, int r) {
     }
 }
 
-// Quick Sort
 int partition(int arr[], int low, int high) {
     int pivot = arr[high];
     int i = (low - 1);
